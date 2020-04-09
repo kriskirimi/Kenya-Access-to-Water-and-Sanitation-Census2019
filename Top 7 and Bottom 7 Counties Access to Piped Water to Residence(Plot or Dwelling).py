@@ -7,7 +7,7 @@ Created on Fri Mar 27 12:03:07 2020
 
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv(r'C:\Users\KIRIMI\.spyder-py3\My Projects\Kenya Access to Water and Sanitation Census 2019\Data\volume_4-table-2.15_chouseholds-by-main-source-of-drinking-water-area-of-residence-county-and-su.csv')
+df = pd.read_csv(r'C:\Users\KIRIMI\Documents\GitHub\Kenya-Access-to-Water-and-Sanitation-Census2019-Analysis-and-Visualization\Data\volume_4-table-2.15_chouseholds-by-main-source-of-drinking-water-area-of-residence-county-and-su.csv')
 df.head(5)
 df.shape
 df.dtypes
