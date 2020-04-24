@@ -7,13 +7,7 @@ Created on Thu Mar 19 17:28:52 2020
 import pandas as pd
 import matplotlib.pyplot as plt
 df = pd.read_csv(r'C:\Users\KIRIMI\Documents\GitHub\Kenya-Access-to-Water-and-Sanitation-Census2019-Analysis-and-Visualization\Data\volume_4-table-2.15_chouseholds-by-main-source-of-drinking-water-area-of-residence-county-and-su.csv')
-df.head(5)
-df.shape
-df.dtypes
-df.columns
-df.index
-df.isnull().sum().sum()
-df.iloc[265:275, :]
+
 cols = (['Conventional Households', 'Pond(%)', 'Dam/Lake(%)', 
          'Stream/River', 'Protected Spring', 'Unprotected Spring', 
          'Protected Well', 'Unprotected  Well', 'Borehole/ Tube well',
